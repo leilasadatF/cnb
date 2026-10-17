@@ -1,5 +1,5 @@
 name: Lichess Bot Runner
-jobs:
+
 concurrency:
   group: lichess-bot-runner
   cancel-in-progress: true
