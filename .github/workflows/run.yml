@@ -85,7 +85,7 @@ jobs:
 
       - name: Launch Bot
         run: |
-          CMD_BASE='python3 -u user_interface.py "matchmaking" "tournament H9R6QavB"'
+          CMD_BASE='python3 -u user_interface.py --upgrade "matchmaking" "tournament H9R6QavB"'
           MODE="${{ github.event.inputs.mode }}"
           TOUR_ID="${{ github.event.inputs.tournament_id }}"
           TEAM_ID="${{ github.event.inputs.team_id }}"
